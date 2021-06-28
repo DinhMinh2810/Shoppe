@@ -102,6 +102,17 @@
     display: none;
   }
 
+  .header__search-select {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .header__search-select-label {
+    text-align: center;
+  }
+
   @keyframes mobileSearchSideIn {
     from {
       opacity: 0;
@@ -131,7 +142,7 @@
 
   .pagination-item__link {
     --height: 28px;
-    font: size 1.6rem;
+    font-size: 1.6rem;
     max-width: 36px;
   }
 
@@ -168,6 +179,6 @@
     display: block;
     padding: 5px 8px;
   }
-
-
+  
 }
+
